@@ -2,25 +2,30 @@
 	"id": "tsl-content",
 	"title": "Thirsty Sword Lesbians Content",
 	"description": "An unofficial content pack containing character sheets, playbooks, and moves from Thirsty Sword Lesbians for the PbtA System",
-	"author": "zsilverfox",
+	"authors": [
+		{
+			"name": "zsilverfox"
+		}
+	],
 	"version": "1.0.4",
 	"relationships": {
-		"systems": [{
-			"id": "pbta",
-			"type": "system"
-		}]
+		"systems": [
+			{
+				"id": "pbta",
+				"type": "system"
+			}
+		]
 	},
-
 	"compatibility": {
-		"minimum": "10",
-		"verified": "11.315"
+		"minimum": "11",
+		"verified": "12"
 	},
-	"packs": [{
+	"packs": [
+		{
 			"name": "character-sheets",
 			"label": "Character Sheets",
 			"system": "pbta",
 			"path": "packs/character-sheets.db",
-			"entity": "Actor",
 			"type": "Actor"
 		},
 		{
@@ -28,7 +33,6 @@
 			"label": "Expanded Moves",
 			"system": "pbta",
 			"path": "packs/expanded-moves.db",
-			"entity": "Item",
 			"type": "Item"
 		},
 		{
@@ -36,79 +40,62 @@
 			"label": "TSL Playbooks",
 			"system": "pbta",
 			"path": "packs/playbooks.db",
-			"entity": "Item",
 			"type": "Item"
 		},
-
 		{
 			"name": "the-beast-moves",
 			"label": "The Beast Moves",
 			"system": "pbta",
 			"path": "packs/the-beast-moves.db",
-			"entity": "Item",
 			"type": "Item"
 		},
-
 		{
 			"name": "the-chosen-moves",
 			"label": "The Chosen Moves",
 			"system": "pbta",
 			"path": "packs/the-chosen-moves.db",
-			"entity": "Item",
 			"type": "Item"
 		},
-
 		{
 			"name": "the-devoted-moves",
 			"label": "The Devoted Moves",
 			"system": "pbta",
 			"path": "packs/the-devoted-moves.db",
-			"entity": "Item",
 			"type": "Item"
 		},
-
 		{
 			"name": "the-infamous-moves",
 			"label": "The Infamous Moves",
 			"system": "pbta",
 			"path": "packs/the-infamous-moves.db",
-			"entity": "Item",
 			"type": "Item"
 		},
-
 		{
 			"name": "the-nature-witch-moves",
 			"label": "The Nature Witch Moves",
 			"system": "pbta",
 			"path": "packs/the-nature-witch-moves.db",
-			"entity": "Item",
 			"type": "Item"
 		},
-
 		{
 			"name": "the-scoundrel-moves",
 			"label": "The Scoundrel Moves",
 			"system": "pbta",
 			"path": "packs/the-scoundrel-moves.db",
-			"entity": "Item",
 			"type": "Item"
 		},
-
 		{
 			"name": "the-seeker-moves",
 			"label": "The Seeker Moves",
 			"system": "pbta",
 			"path": "packs/the-seeker-moves.db",
-			"entity": "Item",
 			"type": "Item"
 		},
-
 		{
 			"name": "the-spooky-witch-moves",
 			"label": "The Spooky Witch Moves",
 			"system": "pbta",
 			"path": "packs/the-spooky-witch-moves.db",
-			"entity": "Item",
 			"type": "Item"
 		},
 		{
@@ -116,7 +103,6 @@
 			"label": "The Trickster Moves",
 			"system": "pbta",
 			"path": "packs/the-trickster-moves.db",
-			"entity": "Item",
 			"type": "Item"
 		},
 		{
@@ -124,7 +110,6 @@
 			"label": "Tools and Resources",
 			"system": "pbta",
 			"path": "packs/tools-and-resources.db",
-			"entity": "JournalEntry",
 			"type": "JournalEntry"
 		},
 		{
@@ -132,9 +117,9 @@
 			"label": "Universal Moves",
 			"system": "pbta",
 			"path": "packs/universal-moves.db",
-			"entity": "Item",
 			"type": "Item"
 		}
 	],
-	"download": "https://github.com/zsf-stuff/tsl-content/raw/main/tsl-content.zip"	
+	"manifest": "https://raw.githubusercontent.com/zsf-stuff/tsl-content/main/module.json",
+	"download": "https://github.com/zsf-stuff/tsl-content/raw/main/tsl-content.zip"
 }
